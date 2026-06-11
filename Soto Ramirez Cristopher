@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mar Arábigo en Riesgo</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f9fc;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#006994;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+nav{
+    background:#004d6d;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#90e0ef;
+}
+
+section{
+    padding:40px;
+    max-width:1200px;
+    margin:auto;
+}
+
+h2{
+    color:#006994;
+    margin-bottom:15px;
+    border-bottom:3px solid #006994;
+    padding-bottom:5px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+img{
+    width:100%;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+ul{
+    margin-left:25px;
+}
+
+footer{
+    background:#004d6d;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.galeria img{
+    height:220px;
+    object-fit:cover;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Mar Arábigo en Riesgo</h1>
+    <p>Impacto del Calentamiento Global en los Océanos y Mares</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#concepto">Calentamiento Global</a>
+    <a href="#importancia">Importancia</a>
+    <a href="#efectos">Efectos</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#consecuencias">Consecuencias</a>
+    <a href="#soluciones">Soluciones</a>
+    <a href="#galeria">Galería</a>
+    <a href="#fuentes">Fuentes</a>
+</nav>
+
+<section id="inicio">
+    <div class="card">
+        <h2>Bienvenidos</h2>
+        <p>
+            El Mar Arábigo es una de las regiones marinas más importantes del planeta.
+            Sin embargo, el calentamiento global está provocando cambios significativos
+            en sus ecosistemas, afectando la biodiversidad, las comunidades costeras
+            y la economía de millones de personas.
+        </p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Arabian_Sea_map.png" alt="Mar Arábigo">
+    </div>
+</section>
+
+<section id="concepto">
+    <div class="card">
+        <h2>1. Concepto de Calentamiento Global</h2>
+
+        <h3>Definición</h3>
+        <p>
+            El calentamiento global es el aumento progresivo de la temperatura promedio
+            de la Tierra debido a la acumulación de gases de efecto invernadero en la atmósfera.
+        </p>
+
+        <h3>Principales causas</h3>
+        <ul>
+            <li>Quema de combustibles fósiles.</li>
+            <li>Deforestación.</li>
+            <li>Actividades industriales.</li>
+            <li>Emisiones de vehículos.</li>
+            <li>Agricultura intensiva.</li>
+        </ul>
+
+        <h3>Relación con el Mar Arábigo</h3>
+        <p>
+            El aumento de la temperatura global provoca el calentamiento de las aguas
+            del Mar Arábigo, alterando sus ecosistemas y favoreciendo fenómenos climáticos extremos.
+        </p>
+    </div>
+</section>
+
+<section id="importancia">
+    <div class="card">
+        <h2>2. Importancia del Mar Arábigo</h2>
+
+        <ul>
+            <li>Forma parte del Océano Índico.</li>
+            <li>Es una importante ruta comercial internacional.</li>
+            <li>Alberga una gran biodiversidad marina.</li>
+            <li>Proporciona recursos pesqueros a millones de personas.</li>
+            <li>Ayuda a regular el clima regional.</li>
+            <li>Contribuye a la producción de oxígeno mediante el fitoplancton.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="efectos">
+    <div class="card">
+        <h2>3. Efectos del Calentamiento Global en el Mar Arábigo</h2>
+
+        <ul>
+            <li><strong>Incremento de la temperatura del agua.</strong></li>
+            <li><strong>Derretimiento de glaciares y aumento del nivel del mar.</strong></li>
+            <li><strong>Acidificación del océano.</strong></li>
+            <li><strong>Cambios en las corrientes marinas.</strong></li>
+            <li><strong>Blanqueamiento de corales.</strong></li>
+            <li><strong>Pérdida de especies marinas.</strong></li>
+        </ul>
+    </div>
+</section>
+
+<section id="problemas">
+    <div class="card">
+        <h2>4. Problemas Ambientales Relacionados</h2>
+
+        <ul>
+            <li>Contaminación marina por plásticos.</li>
+            <li>Derrames de petróleo.</li>
+            <li>Sobrepesca.</li>
+            <li>Pérdida de biodiversidad.</li>
+            <li>Ciclones y tormentas más intensas.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="consecuencias">
+    <div class="card">
+        <h2>5. Consecuencias para la Humanidad</h2>
+
+        <ul>
+            <li>Afectaciones en comunidades costeras.</li>
+            <li>Escasez de alimentos marinos.</li>
+            <li>Impacto económico en la pesca y el turismo.</li>
+            <li>Mayor riesgo de inundaciones.</li>
+            <li>Problemas para la salud y el medio ambiente.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="soluciones">
+    <div class="card">
+        <h2>6. Soluciones y Acciones</h2>
+
+        <ul>
+            <li>Uso de energías limpias.</li>
+            <li>Reducción de la contaminación.</li>
+            <li>Protección de ecosistemas marinos.</li>
+            <li>Campañas de concientización.</li>
+            <li>Creación de áreas marinas protegidas.</li>
+            <li>Acciones coordinadas entre ciudadanos y gobiernos.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="galeria">
+    <div class="card">
+        <h2>7. Datos e Información Visual</h2>
+
+        <div class="galeria">
+
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Océano">
+
+            <img src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7" alt="Contaminación">
+
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5" alt="Corales">
+
+            <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b" alt="Vida marina">
+
+        </div>
+
+        <h3>Video recomendado</h3>
+
+        <iframe width="100%" height="400"
+        src="https://www.youtube.com/embed/G4H1N_yXBiA"
+        title="Cambio Climático"
+        frameborder="0"
+        allowfullscreen></iframe>
+
+    </div>
+</section>
+
+<section id="fuentes">
+    <div class="card">
+        <h2>8. Fuentes de Información</h2>
+
+        <ul>
+            <li>ONU - https://www.un.org</li>
+            <li>UNESCO - https://www.unesco.org</li>
+            <li>Greenpeace - https://www.greenpeace.org</li>
+            <li>Programa de las Naciones Unidas para el Medio Ambiente.</li>
+            <li>Artículos científicos sobre cambio climático y océanos.</li>
+            <li>Libros y revistas de ciencias ambientales.</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>Proyecto Educativo - El Calentamiento Global en el Mar Arábigo</p>
+</footer>
+
+</body>
+</html>
